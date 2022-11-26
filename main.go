@@ -22,6 +22,9 @@ func main() {
 
 	// Slices Definition
 	var bookingsTwo []string
+	// Alternate Syntax
+	// bookingsTwo := []string{}
+
 	bookingsTwo = append(bookingsTwo, "Tharayathu Sea Palace")
 
 	fmt.Println("Slice Print Out: ", bookingsTwo)
