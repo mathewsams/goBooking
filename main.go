@@ -11,6 +11,21 @@ func main() {
 	eventName := "Go Event 22"
 	var remainingTickets uint = 50
 
+	// Array Defination
+	// var bookings = [50]string{}
+	// Alternate Syntax for Array
+	var bookingsOne [50]string
+
+	// Adding elemets to Array
+	bookingsOne[0] = "Sam Mathew"
+	fmt.Println("Array Print Out: ", bookingsOne)
+
+	// Slices Definition
+	var bookingsTwo []string
+	bookingsTwo = append(bookingsTwo, "Tharayathu Sea Palace")
+
+	fmt.Println("Slice Print Out: ", bookingsTwo)
+
 	// fmt.Println("Memory Location of the variable eventName is:", &eventName)
 	// fmt.Println(eventName)
 
