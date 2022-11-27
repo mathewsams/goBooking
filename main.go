@@ -47,6 +47,15 @@ func main() {
 		fmt.Printf("\nTotal tickets remaining for the event %v\n", remainingTickets)
 		// fmt.Printf("\nTotal event bookings %v\n", bookings)
 		fmt.Printf("\nFirst Names of users with bookings %v\n", firstNames)
+
+		// Boolean variable Declaration
+		// var ticketsAvailable bool = remainingTickets == 0
+		// Alternate Syntax
+		ticketsAvailable := remainingTickets == 0
+		if ticketsAvailable {
+			fmt.Println("Event is booked Out. Come back next year")
+			break
+		}
 	}
 
 }
